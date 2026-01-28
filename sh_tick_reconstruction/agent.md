@@ -718,5 +718,37 @@ sh_tick_reconstruction/
 
 ---
 
-*文档结束*
+### [2026-01-28] - 真实数据测试验证通过
+
+**测试结果:**
+- ✅ 成功处理 **20251030** 日全市场上交所数据
+- 股票数: **3,731** 只
+- 委托记录: **5,857,584** 条
+  - 新增委托 (New): 2,789,862 条
+  - 撤单 (Cancel): 3,067,722 条
+- 成交记录: **2,986,187** 条
+- 处理耗时: **761.60 秒** (约 12.7 分钟)
+- Taker (主动委托): 771,518 条
+- Maker (被动委托): 2,018,344 条
+
+**输出文件:**
+- `通联逐笔数据/20251030_sh_order_data.parquet` (委托表)
+- `通联逐笔数据/20251030_sh_trade_data.parquet` (成交表)
+
+**运行命令:**
+```bash
+PYTHONPATH=/path/to/逐笔数据分解 conda run -n torch1010 python -m sh_tick_reconstruction run \
+    --date 20251030 \
+    --input "通联逐笔数据/20251030_sh_tick_data.parquet" \
+    --output "通联逐笔数据/"
+```
+
+**与热力图构建对接:**
+- ✅ l2_image_builder 已适配本模块的输出格式
+- 列名映射已在 `sh_loader.py` 中处理:
+  - `BidOrdID` → `BuyOrderNO`
+  - `AskOrdID` → `SellOrderNO`
+  - `ActiveSide` → `TickBSFlag` (自动生成)
+
+---
 
