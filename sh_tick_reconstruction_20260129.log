@@ -1,0 +1,163 @@
+2026-01-29 09:20:43,778 - sh_tick_reconstruction.scripts.run_daily - INFO - ============================================================
+2026-01-29 09:20:43,778 - sh_tick_reconstruction.scripts.run_daily - INFO - 上交所逐笔数据拆解 - 每日批量处理
+2026-01-29 09:20:43,778 - sh_tick_reconstruction.scripts.run_daily - INFO - ============================================================
+2026-01-29 09:20:43,778 - sh_tick_reconstruction.scripts.run_daily - INFO - 日期: 20251031
+2026-01-29 09:20:43,778 - sh_tick_reconstruction.scripts.run_daily - INFO - 输入: /Users/shiyunshuo/Desktop/pythonproject/中邮基金/华泰金工vivit/通联逐笔数据/20251031_sh_tick_data.parquet
+2026-01-29 09:20:43,778 - sh_tick_reconstruction.scripts.run_daily - INFO - 输出: /Users/shiyunshuo/Desktop/pythonproject/中邮基金/华泰金工vivit/output
+2026-01-29 09:20:43,779 - sh_tick_reconstruction.scripts.run_daily - INFO - 验证: True
+2026-01-29 09:20:43,779 - sh_tick_reconstruction.scripts.run_daily - INFO - ============================================================
+2026-01-29 09:20:43,779 - sh_tick_reconstruction.batch - INFO - 开始处理日期 20251031 的数据
+2026-01-29 09:20:43,779 - sh_tick_reconstruction.batch - INFO - 输入文件: /Users/shiyunshuo/Desktop/pythonproject/中邮基金/华泰金工vivit/通联逐笔数据/20251031_sh_tick_data.parquet
+2026-01-29 09:20:43,779 - sh_tick_reconstruction.batch - INFO - 输出目录: /Users/shiyunshuo/Desktop/pythonproject/中邮基金/华泰金工vivit/output
+2026-01-29 09:20:43,779 - sh_tick_reconstruction.batch - INFO - Step 1: 读取输入数据...
+2026-01-29 09:20:44,623 - sh_tick_reconstruction.batch - INFO -   读取完成: 13,240,673 行
+2026-01-29 09:20:44,803 - sh_tick_reconstruction.batch - INFO -   共 3263 只股票
+2026-01-29 09:20:44,803 - sh_tick_reconstruction.batch - INFO - Step 2: 按股票分组处理...
+2026-01-29 09:20:48,382 - sh_tick_reconstruction.batch - INFO -   已处理 100/3263 只股票
+2026-01-29 09:20:54,262 - sh_tick_reconstruction.batch - INFO -   已处理 200/3263 只股票
+2026-01-29 09:21:02,330 - sh_tick_reconstruction.batch - INFO -   已处理 300/3263 只股票
+2026-01-29 09:21:14,308 - sh_tick_reconstruction.batch - INFO -   已处理 400/3263 只股票
+2026-01-29 09:21:23,217 - sh_tick_reconstruction.batch - INFO -   已处理 500/3263 只股票
+2026-01-29 09:21:31,693 - sh_tick_reconstruction.batch - INFO -   已处理 600/3263 只股票
+2026-01-29 09:21:41,596 - sh_tick_reconstruction.batch - INFO -   已处理 700/3263 只股票
+2026-01-29 09:21:52,463 - sh_tick_reconstruction.batch - INFO -   已处理 800/3263 只股票
+2026-01-29 09:22:03,893 - sh_tick_reconstruction.batch - INFO -   已处理 900/3263 只股票
+2026-01-29 09:22:24,583 - sh_tick_reconstruction.scripts.run_daily - INFO - ============================================================
+2026-01-29 09:22:24,584 - sh_tick_reconstruction.scripts.run_daily - INFO - 上交所逐笔数据拆解 - 每日批量处理
+2026-01-29 09:22:24,584 - sh_tick_reconstruction.scripts.run_daily - INFO - ============================================================
+2026-01-29 09:22:24,584 - sh_tick_reconstruction.scripts.run_daily - INFO - 日期: 20251031
+2026-01-29 09:22:24,584 - sh_tick_reconstruction.scripts.run_daily - INFO - 输入: /Users/shiyunshuo/Desktop/pythonproject/中邮基金/华泰金工vivit/通联逐笔数据/20251031_sh_tick_data.parquet
+2026-01-29 09:22:24,584 - sh_tick_reconstruction.scripts.run_daily - INFO - 输出: /Users/shiyunshuo/Desktop/pythonproject/中邮基金/华泰金工vivit/output
+2026-01-29 09:22:24,584 - sh_tick_reconstruction.scripts.run_daily - INFO - 验证: True
+2026-01-29 09:22:24,584 - sh_tick_reconstruction.scripts.run_daily - INFO - ============================================================
+2026-01-29 09:22:24,584 - sh_tick_reconstruction.batch - INFO - 开始处理日期 20251031 的数据
+2026-01-29 09:22:24,584 - sh_tick_reconstruction.batch - INFO - 输入文件: /Users/shiyunshuo/Desktop/pythonproject/中邮基金/华泰金工vivit/通联逐笔数据/20251031_sh_tick_data.parquet
+2026-01-29 09:22:24,584 - sh_tick_reconstruction.batch - INFO - 输出目录: /Users/shiyunshuo/Desktop/pythonproject/中邮基金/华泰金工vivit/output
+2026-01-29 09:22:24,584 - sh_tick_reconstruction.batch - INFO - Step 1: 读取输入数据...
+2026-01-29 09:22:25,118 - sh_tick_reconstruction.batch - INFO -   读取完成: 13,240,673 行
+2026-01-29 09:22:25,298 - sh_tick_reconstruction.batch - INFO -   共 3263 只股票
+2026-01-29 09:22:25,298 - sh_tick_reconstruction.batch - INFO - Step 2: 按股票分组处理...
+2026-01-29 09:22:28,177 - sh_tick_reconstruction.batch - INFO -   已处理 100/3263 只股票
+2026-01-29 09:22:32,848 - sh_tick_reconstruction.batch - INFO -   已处理 200/3263 只股票
+2026-01-29 09:22:35,892 - sh_tick_reconstruction.batch - INFO -   已处理 300/3263 只股票
+2026-01-29 09:23:11,740 - sh_tick_reconstruction.scripts.run_daily - INFO - ============================================================
+2026-01-29 09:23:11,740 - sh_tick_reconstruction.scripts.run_daily - INFO - 上交所逐笔数据拆解 - 每日批量处理
+2026-01-29 09:23:11,740 - sh_tick_reconstruction.scripts.run_daily - INFO - ============================================================
+2026-01-29 09:23:11,740 - sh_tick_reconstruction.scripts.run_daily - INFO - 日期: 20251031
+2026-01-29 09:23:11,740 - sh_tick_reconstruction.scripts.run_daily - INFO - 输入: /Users/shiyunshuo/Desktop/pythonproject/中邮基金/华泰金工vivit/通联逐笔数据/20251031_sh_tick_data.parquet
+2026-01-29 09:23:11,740 - sh_tick_reconstruction.scripts.run_daily - INFO - 输出: /Users/shiyunshuo/Desktop/pythonproject/中邮基金/华泰金工vivit/通联逐笔数据
+2026-01-29 09:23:11,740 - sh_tick_reconstruction.scripts.run_daily - INFO - 验证: True
+2026-01-29 09:23:11,740 - sh_tick_reconstruction.scripts.run_daily - INFO - ============================================================
+2026-01-29 09:23:11,740 - sh_tick_reconstruction.batch - INFO - 开始处理日期 20251031 的数据
+2026-01-29 09:23:11,740 - sh_tick_reconstruction.batch - INFO - 输入文件: /Users/shiyunshuo/Desktop/pythonproject/中邮基金/华泰金工vivit/通联逐笔数据/20251031_sh_tick_data.parquet
+2026-01-29 09:23:11,740 - sh_tick_reconstruction.batch - INFO - 输出目录: /Users/shiyunshuo/Desktop/pythonproject/中邮基金/华泰金工vivit/通联逐笔数据
+2026-01-29 09:23:11,740 - sh_tick_reconstruction.batch - INFO - Step 1: 读取输入数据...
+2026-01-29 09:23:12,361 - sh_tick_reconstruction.batch - INFO -   读取完成: 13,240,673 行
+2026-01-29 09:23:12,535 - sh_tick_reconstruction.batch - INFO -   共 3263 只股票
+2026-01-29 09:23:12,536 - sh_tick_reconstruction.batch - INFO - Step 2: 按股票分组处理...
+2026-01-29 09:23:18,907 - sh_tick_reconstruction.batch - INFO -   已处理 100/3263 只股票
+2026-01-29 09:23:29,596 - sh_tick_reconstruction.batch - INFO -   已处理 200/3263 只股票
+2026-01-29 09:23:34,753 - sh_tick_reconstruction.batch - INFO -   已处理 300/3263 只股票
+2026-01-29 09:23:42,191 - sh_tick_reconstruction.batch - INFO -   已处理 400/3263 只股票
+2026-01-29 09:23:51,321 - sh_tick_reconstruction.batch - INFO -   已处理 500/3263 只股票
+2026-01-29 09:24:00,398 - sh_tick_reconstruction.batch - INFO -   已处理 600/3263 只股票
+2026-01-29 09:24:08,027 - sh_tick_reconstruction.batch - INFO -   已处理 700/3263 只股票
+2026-01-29 09:24:15,477 - sh_tick_reconstruction.batch - INFO -   已处理 800/3263 只股票
+2026-01-29 09:24:25,485 - sh_tick_reconstruction.batch - INFO -   已处理 900/3263 只股票
+2026-01-29 09:24:36,218 - sh_tick_reconstruction.batch - INFO -   已处理 1000/3263 只股票
+2026-01-29 09:24:46,800 - sh_tick_reconstruction.batch - INFO -   已处理 1100/3263 只股票
+2026-01-29 09:24:57,165 - sh_tick_reconstruction.batch - INFO -   已处理 1200/3263 只股票
+2026-01-29 09:25:10,380 - sh_tick_reconstruction.batch - INFO -   已处理 1300/3263 只股票
+2026-01-29 09:25:20,613 - sh_tick_reconstruction.batch - INFO -   已处理 1400/3263 只股票
+2026-01-29 09:25:31,164 - sh_tick_reconstruction.batch - INFO -   已处理 1500/3263 只股票
+2026-01-29 09:25:41,776 - sh_tick_reconstruction.batch - INFO -   已处理 1600/3263 只股票
+2026-01-29 09:25:54,432 - sh_tick_reconstruction.batch - INFO -   已处理 1700/3263 只股票
+2026-01-29 09:26:07,418 - sh_tick_reconstruction.batch - INFO -   已处理 1800/3263 只股票
+2026-01-29 09:26:21,492 - sh_tick_reconstruction.batch - INFO -   已处理 1900/3263 只股票
+2026-01-29 09:26:34,134 - sh_tick_reconstruction.batch - INFO -   已处理 2000/3263 只股票
+2026-01-29 09:26:46,244 - sh_tick_reconstruction.batch - INFO -   已处理 2100/3263 只股票
+2026-01-29 09:27:00,449 - sh_tick_reconstruction.batch - INFO -   已处理 2200/3263 只股票
+2026-01-29 09:27:13,794 - sh_tick_reconstruction.batch - INFO -   已处理 2300/3263 只股票
+2026-01-29 09:27:32,953 - sh_tick_reconstruction.batch - INFO -   已处理 2400/3263 只股票
+2026-01-29 09:27:50,547 - sh_tick_reconstruction.batch - INFO -   已处理 2500/3263 只股票
+2026-01-29 09:28:07,248 - sh_tick_reconstruction.batch - INFO -   已处理 2600/3263 只股票
+2026-01-29 09:28:19,107 - sh_tick_reconstruction.batch - INFO -   已处理 2700/3263 只股票
+2026-01-29 09:28:36,483 - sh_tick_reconstruction.batch - INFO -   已处理 2800/3263 只股票
+2026-01-29 09:29:25,194 - sh_tick_reconstruction.scripts.run_daily - INFO - ============================================================
+2026-01-29 09:29:25,194 - sh_tick_reconstruction.scripts.run_daily - INFO - 上交所逐笔数据拆解 - 每日批量处理
+2026-01-29 09:29:25,194 - sh_tick_reconstruction.scripts.run_daily - INFO - ============================================================
+2026-01-29 09:29:25,194 - sh_tick_reconstruction.scripts.run_daily - INFO - 日期: 20251031
+2026-01-29 09:29:25,194 - sh_tick_reconstruction.scripts.run_daily - INFO - 输入: /Users/shiyunshuo/Desktop/pythonproject/中邮基金/华泰金工vivit/通联逐笔数据/20251031_sh_tick_data.parquet
+2026-01-29 09:29:25,194 - sh_tick_reconstruction.scripts.run_daily - INFO - 输出: /Users/shiyunshuo/Desktop/pythonproject/中邮基金/华泰金工vivit/通联逐笔数据
+2026-01-29 09:29:25,194 - sh_tick_reconstruction.scripts.run_daily - INFO - 验证: True
+2026-01-29 09:29:25,194 - sh_tick_reconstruction.scripts.run_daily - INFO - ============================================================
+2026-01-29 09:29:25,194 - sh_tick_reconstruction.batch - INFO - 开始处理日期 20251031 的数据
+2026-01-29 09:29:25,194 - sh_tick_reconstruction.batch - INFO - 输入文件: /Users/shiyunshuo/Desktop/pythonproject/中邮基金/华泰金工vivit/通联逐笔数据/20251031_sh_tick_data.parquet
+2026-01-29 09:29:25,194 - sh_tick_reconstruction.batch - INFO - 输出目录: /Users/shiyunshuo/Desktop/pythonproject/中邮基金/华泰金工vivit/通联逐笔数据
+2026-01-29 09:29:25,194 - sh_tick_reconstruction.batch - INFO - Step 1: 读取输入数据...
+2026-01-29 09:29:25,744 - sh_tick_reconstruction.batch - INFO -   读取完成: 13,240,673 行
+2026-01-29 09:29:25,911 - sh_tick_reconstruction.batch - INFO -   共 3263 只股票
+2026-01-29 09:29:25,911 - sh_tick_reconstruction.batch - INFO - Step 2: 按股票分组处理...
+2026-01-29 09:29:27,578 - sh_tick_reconstruction.batch - INFO -   已处理 100/3263 只股票
+2026-01-29 09:29:29,271 - sh_tick_reconstruction.batch - INFO -   已处理 200/3263 只股票
+2026-01-29 09:29:31,164 - sh_tick_reconstruction.batch - INFO -   已处理 300/3263 只股票
+2026-01-29 09:29:33,946 - sh_tick_reconstruction.batch - INFO -   已处理 400/3263 只股票
+2026-01-29 09:29:35,892 - sh_tick_reconstruction.batch - INFO -   已处理 500/3263 只股票
+2026-01-29 09:29:38,015 - sh_tick_reconstruction.batch - INFO -   已处理 600/3263 只股票
+2026-01-29 09:29:40,024 - sh_tick_reconstruction.batch - INFO -   已处理 700/3263 只股票
+2026-01-29 09:29:42,688 - sh_tick_reconstruction.batch - INFO -   已处理 800/3263 只股票
+2026-01-29 09:29:45,514 - sh_tick_reconstruction.batch - INFO -   已处理 900/3263 只股票
+2026-01-29 09:29:50,271 - sh_tick_reconstruction.batch - INFO -   已处理 1000/3263 只股票
+2026-01-29 09:29:55,639 - sh_tick_reconstruction.batch - INFO -   已处理 1100/3263 只股票
+2026-01-29 09:30:01,070 - sh_tick_reconstruction.batch - INFO -   已处理 1200/3263 只股票
+2026-01-29 09:30:07,838 - sh_tick_reconstruction.batch - INFO -   已处理 1300/3263 只股票
+2026-01-29 09:30:13,666 - sh_tick_reconstruction.batch - INFO -   已处理 1400/3263 只股票
+2026-01-29 09:30:23,087 - sh_tick_reconstruction.batch - INFO -   已处理 1500/3263 只股票
+2026-01-29 09:30:32,850 - sh_tick_reconstruction.batch - INFO -   已处理 1600/3263 只股票
+2026-01-29 09:30:49,488 - sh_tick_reconstruction.batch - INFO -   已处理 1700/3263 只股票
+2026-01-29 09:31:06,725 - sh_tick_reconstruction.batch - INFO -   已处理 1800/3263 只股票
+2026-01-29 09:31:26,870 - sh_tick_reconstruction.batch - INFO -   已处理 1900/3263 只股票
+2026-01-29 09:31:38,267 - sh_tick_reconstruction.batch - INFO -   已处理 2000/3263 只股票
+2026-01-29 09:31:48,220 - sh_tick_reconstruction.batch - INFO -   已处理 2100/3263 只股票
+2026-01-29 09:31:58,001 - sh_tick_reconstruction.batch - INFO -   已处理 2200/3263 只股票
+2026-01-29 09:32:09,259 - sh_tick_reconstruction.batch - INFO -   已处理 2300/3263 只股票
+2026-01-29 09:32:18,563 - sh_tick_reconstruction.batch - INFO -   已处理 2400/3263 只股票
+2026-01-29 09:32:33,445 - sh_tick_reconstruction.batch - INFO -   已处理 2500/3263 只股票
+2026-01-29 09:32:47,371 - sh_tick_reconstruction.batch - INFO -   已处理 2600/3263 只股票
+2026-01-29 09:32:59,415 - sh_tick_reconstruction.batch - INFO -   已处理 2700/3263 只股票
+2026-01-29 09:33:15,043 - sh_tick_reconstruction.batch - INFO -   已处理 2800/3263 只股票
+2026-01-29 09:33:24,422 - sh_tick_reconstruction.batch - INFO -   已处理 2900/3263 只股票
+2026-01-29 09:33:40,609 - sh_tick_reconstruction.batch - INFO -   已处理 3000/3263 只股票
+2026-01-29 09:33:50,405 - sh_tick_reconstruction.batch - INFO -   已处理 3100/3263 只股票
+2026-01-29 09:34:02,433 - sh_tick_reconstruction.batch - INFO -   已处理 3200/3263 只股票
+2026-01-29 09:34:06,871 - sh_tick_reconstruction.batch - INFO -   已处理 3263/3263 只股票
+2026-01-29 09:34:06,872 - sh_tick_reconstruction.batch - INFO -   处理完成: 5,381,386 条委托, 2,510,390 条成交
+2026-01-29 09:34:06,872 - sh_tick_reconstruction.batch - INFO - Step 3: 创建 DataFrame 并排序...
+2026-01-29 09:34:38,385 - sh_tick_reconstruction.batch - INFO -   委托表: 5,381,386 行, 9 列
+2026-01-29 09:34:38,390 - sh_tick_reconstruction.batch - INFO -   成交表: 2,510,390 行, 9 列
+2026-01-29 09:34:38,390 - sh_tick_reconstruction.batch - INFO - Step 4: 输出 Parquet 文件...
+2026-01-29 09:34:41,512 - sh_tick_reconstruction.batch - INFO -   委托文件: /Users/shiyunshuo/Desktop/pythonproject/中邮基金/华泰金工vivit/通联逐笔数据/20251031_sh_order_data.parquet
+2026-01-29 09:34:41,512 - sh_tick_reconstruction.batch - INFO -   成交文件: /Users/shiyunshuo/Desktop/pythonproject/中邮基金/华泰金工vivit/通联逐笔数据/20251031_sh_trade_data.parquet
+2026-01-29 09:34:41,676 - sh_tick_reconstruction.batch - INFO - ============================================================
+2026-01-29 09:34:41,676 - sh_tick_reconstruction.batch - INFO - 处理完成! 日期: 20251031
+2026-01-29 09:34:41,676 - sh_tick_reconstruction.batch - INFO -   股票数: 3,263
+2026-01-29 09:34:41,676 - sh_tick_reconstruction.batch - INFO -   委托数: 5,381,386 (New: 2,600,114, Cancel: 2,781,272)
+2026-01-29 09:34:41,676 - sh_tick_reconstruction.batch - INFO -   成交数: 2,510,390
+2026-01-29 09:34:41,676 - sh_tick_reconstruction.batch - INFO -   Taker: 706,572, Maker: 1,893,542
+2026-01-29 09:34:41,676 - sh_tick_reconstruction.batch - INFO -   耗时: 316.32 秒
+2026-01-29 09:34:41,676 - sh_tick_reconstruction.batch - INFO - ============================================================
+2026-01-29 09:34:46,588 - sh_tick_reconstruction.scripts.run_daily - INFO - ============================================================
+2026-01-29 09:34:46,589 - sh_tick_reconstruction.scripts.run_daily - INFO - 处理完成!
+2026-01-29 09:34:46,589 - sh_tick_reconstruction.scripts.run_daily - INFO - ============================================================
+2026-01-29 09:34:46,589 - sh_tick_reconstruction.scripts.run_daily - INFO - 处理股票数: 3263
+2026-01-29 09:34:46,589 - sh_tick_reconstruction.scripts.run_daily - INFO - 委托记录数: 5381386
+2026-01-29 09:34:46,589 - sh_tick_reconstruction.scripts.run_daily - INFO - 成交记录数: 2510390
+2026-01-29 09:34:46,589 - sh_tick_reconstruction.scripts.run_daily - INFO - 新增委托数: 2600114
+2026-01-29 09:34:46,589 - sh_tick_reconstruction.scripts.run_daily - INFO - 撤单数量: 2781272
+2026-01-29 09:34:46,589 - sh_tick_reconstruction.scripts.run_daily - INFO - 主动委托 (Taker): 706572
+2026-01-29 09:34:46,589 - sh_tick_reconstruction.scripts.run_daily - INFO - 被动委托 (Maker): 1893542
+2026-01-29 09:34:46,589 - sh_tick_reconstruction.scripts.run_daily - INFO - 处理耗时: 316.32 秒
+2026-01-29 09:34:46,589 - sh_tick_reconstruction.scripts.run_daily - INFO - ============================================================
+2026-01-29 09:34:46,590 - sh_tick_reconstruction.scripts.run_daily - INFO - 输出文件:
+2026-01-29 09:34:46,590 - sh_tick_reconstruction.scripts.run_daily - INFO -   - /Users/shiyunshuo/Desktop/pythonproject/中邮基金/华泰金工vivit/通联逐笔数据/20251031_sh_order_data.parquet
+2026-01-29 09:34:46,590 - sh_tick_reconstruction.scripts.run_daily - INFO -   - /Users/shiyunshuo/Desktop/pythonproject/中邮基金/华泰金工vivit/通联逐笔数据/20251031_sh_trade_data.parquet
